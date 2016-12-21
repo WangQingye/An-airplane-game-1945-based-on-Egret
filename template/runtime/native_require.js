@@ -11,12 +11,12 @@ var game_file_list = [
 	"bin-debug/fighters/Airplane.js",
 	"bin-debug/fighters/BgMap.js",
 	"bin-debug/fighters/Bullets.js",
+	"bin-debug/fighters/GameContainer.js",
 	"bin-debug/fighters/ScorePanel.js",
 	"bin-debug/LoadingUI.js",
 	"bin-debug/Main.js",
-	"bin-debug/utils/Utils.js",
-	"bin-debug/fighters/GameContainer.js",
 	"bin-debug/ThemeAdapter.js",
+	"bin-debug/utils/Utils.js",
 	//----auto game_file_list end----
 ];
 

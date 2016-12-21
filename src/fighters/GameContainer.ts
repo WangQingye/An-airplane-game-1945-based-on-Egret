@@ -61,8 +61,9 @@ module fighter{
             this.addChild(this.btnStart);
             //我的飞机
             this.myFighter = new fighter.Airplane(RES.getRes("f1"),150,"f1");
-            this.myFighter.y = this.stageH - this.myFighter.height - 30;
-            this.addChild(this.myFighter);            
+            this.myFighter.y = this.stageH - this.myFighter.height - 50;
+            this.myFighter.x = (this.stageW - this.myFighter.width) / 2;//居中定位
+            this.addChild(this.myFighter);
             //计分板
             this.scorePanel = new fighter.ScorePanel();
             //预创建
